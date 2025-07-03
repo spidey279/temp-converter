@@ -56,6 +56,7 @@ h1 {
   padding: 0.5rem;
   border-radius: 0.5rem;
   outline: none;
+
   border: 1px solid grey;
 }
 @media screen and (min-width: 480px) {
@@ -74,6 +75,7 @@ h1 {
   .one input {
     padding: 1.2rem;
     width: 60%;
+    font-size: 1rem;
   }
 }
 @media screen and (min-width: 1024px) {
@@ -104,6 +106,7 @@ h1 {
 @media screen and (min-width: 768px) {
   .two input {
     padding: 1.2rem;
+    font-size: 1rem;
     width: 60%;
   }
 }
@@ -135,6 +138,7 @@ h1 {
 @media screen and (min-width: 768px) {
   .three input {
     padding: 1.2rem;
+    font-size: 1rem;
     width: 60%;
   }
 }
