@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body {
+  background: #ffffff;
+  color: rgb(0, 0, 0);
+  font-family: sans-serif;
+  height: 100dvh;
+  width: 100dvw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  width: 90%;
+  max-width: 600px;
+  height: auto;
+  background: transparent;
+  color: black;
+  box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.3);
+  border-radius: 1rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+h1 {
+  font-size: 1.3rem;
+  text-align: center;
+}
+@media screen and (min-width: 480px) {
+  h1 {
+    font-size: 1.7rem;
+  }
+}
+@media screen and (min-width: 640px) {
+  h1 {
+    font-size: 2rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 2.2rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+}
+.one input {
+  float: right;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  outline: none;
+  border: 1px solid grey;
+}
+@media screen and (min-width: 480px) {
+  .one input {
+    padding: 0.8rem;
+    width: 60%;
+  }
+}
+@media screen and (min-width: 640px) {
+  .one input {
+    padding: 1rem;
+    width: 60%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .one input {
+    padding: 1.2rem;
+    width: 60%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .one input {
+    padding: 1.4rem;
+    width: 60%;
+  }
+}
+.two input {
+  float: right;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  outline: none;
+  border: 1px solid grey;
+}
+@media screen and (min-width: 480px) {
+  .two input {
+    padding: 0.8rem;
+    width: 60%;
+  }
+}
+@media screen and (min-width: 640px) {
+  .two input {
+    padding: 1rem;
+    width: 60%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .two input {
+    padding: 1.2rem;
+    width: 60%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .two input {
+    padding: 1.4rem;
+    width: 60%;
+  }
+}
+.three input {
+  float: right;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  outline: none;
+  border: 1px solid grey;
+}
+@media screen and (min-width: 480px) {
+  .three input {
+    padding: 0.8rem;
+    width: 60%;
+  }
+}
+@media screen and (min-width: 640px) {
+  .three input {
+    padding: 1rem;
+    width: 60%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .three input {
+    padding: 1.2rem;
+    width: 60%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .three input {
+    padding: 1.4rem;
+    width: 60%;
+  }
+}
+label {
+  font-size: 0.8rem;
+}
+@media screen and (min-width: 480px) {
+  label {
+    font-size: 1rem;
+    padding-left: 1rem;
+  }
+}
+@media screen and (min-width: 640px) {
+  label {
+    font-size: 1.2rem;
+    padding-left: 1.2rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  label {
+    font-size: 1.4rem;
+    padding-left: 1.4rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  label {
+    font-size: 1.6rem;
+    padding-left: 1.6rem;
+  }
+}
